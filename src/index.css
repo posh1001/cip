@@ -2502,6 +2502,7 @@ input[type="checkbox"]:checked::after {
 /**********************STARTING THE LANDING PAGE*************************************************************/
 
 .top-header {
+  background-color: "black";
   background-image: url('./assets/images/header.png');
   background-repeat: no-repeat;
   background-size: cover;
