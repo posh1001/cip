@@ -53,11 +53,11 @@ const ConnectWallet = () => {
 
 
     return (
-        <div className="" style={{ backgroundColor: "black", height: "100vh" }}>
+        <div className="my-wallet" style={{ backgroundColor: "black", height: "100vh" }}>
             <div className="container">
                 <div className="row p-1 " id='signup-row'>
                     <Welcome />
-                    <div className="col-lg-6 col-md-12 col-sm-12">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div className="signup-progress">
                             <img src={logo} className='logo px-5 py-4' alt="logo" />
                             <div className="progress_container ">
@@ -75,7 +75,7 @@ const ConnectWallet = () => {
                                     <img src={COTI} alt="img" style={{ width: "30px", height: "30px" }} />
                                     <label>
                                         <input
-                                            id='connect-wallet2'
+                                            id='connect-wallet3'
                                             style={{ cursor: "pointer", transform: "translateX(1790%)" }}
                                             type="checkbox"
                                             checked={selectedWallets.includes('COTI')}
@@ -89,7 +89,7 @@ const ConnectWallet = () => {
                                     <img src={META} alt="img" style={{ width: "30px", height: "30px" }} />
                                     <label>
                                         <input
-                                            id='connect-wallet2'
+                                            id='connect-wallet1'
                                             style={{ cursor: "pointer", transform: "translateX(1530%)" }}
                                             type="checkbox"
                                             checked={selectedWallets.includes('Meta Mask')}
@@ -112,18 +112,18 @@ const ConnectWallet = () => {
                                     </label>
                                 </div>
 
-                                <div>
-                                    <label>
-                                        <div className="usl1 col-8 mb-3 d-flex" id='asset1'
+                                <div id='drop-down'>
+                                    <label className='wallet-usl'>
+                                        <div className="usl1  mb-3 d-flex" id='asset'
                                             style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', height: "63px", padding: "17px", width: "400px" }}
                                             onClick={() => setShowOtherWalletDropdown(!showOtherWalletDropdown)}
                                         >
-                                            <span style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: "500", fontSize: "18px" }}>Other Wallets</span>
-                                            <FaChevronRight style={{ position: "relative", left: "14.5rem", cursor: "pointer", marginLeft: '8px', transition: 'transform 0.3s' }} />
+                                            <span id='other-wallets' style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: "500", fontSize: "18px" }}>Other Wallets</span>
+                                            <FaChevronRight id="right-arrow" style={{ position: "relative", left: "14.5rem", cursor: "pointer", marginLeft: '8px', transition: 'transform 0.3s' }} />
                                         </div>
                                     </label>
                                     {showOtherWalletDropdown && (
-                                        <div style={{ position: "relative", cursor: "pointer", bottom: "18px" }}>
+                                        <div id='select-option' style={{ position: "relative", cursor: "pointer", bottom: "18px" }}>
                                             <select onChange={handleOtherWalletSelect} value={otherWallet} style={{ height: "60px", width: "400px", fontFamily: "Space Grotesk, sans-serif", fontWeight: "500" }}>
                                                 <option value="" style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: "500" }}>Select Other Wallet</option>
                                                 <option value="Wallet1" style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: "500" }}>Wallet 1</option>

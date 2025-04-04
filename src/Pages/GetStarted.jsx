@@ -27,7 +27,7 @@ const GetStarted = () => {
                                         <div className="video-box" >
                                             <iframe src={Davido} frameborder="0"></iframe>
                                         </div>
-                                        <div class=" tooltip-btn d-grid gap-3 col-8 m-3 col-sm-12 px-5">
+                                        <div className=" tooltip-btn d-grid gap-3 col-8 m-3 col-sm-12 px-5">
                                             <Link to="/signup" className='text-light'
                                                 style={{ textDecoration: "none" }}>
                                                 <button className="btn btn" type="button" id='btn3' >

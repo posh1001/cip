@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faEye } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { initializeApp } from "firebase/app";
 
 const Login = () => {
     const [password, setPassword] = useState('');
@@ -33,6 +32,7 @@ const Login = () => {
         const { email, password } = formData;
         if (!email || !password) {
             setError("All fields are required.");
+
 
             // const response = await fetch('/api/signup', {
             //   method: 'POST',

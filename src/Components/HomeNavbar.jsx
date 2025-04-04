@@ -9,14 +9,14 @@ import { faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons';
 const HomeNavbar = () => {
     return (
         <>
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-lg">
                 <div class="container">
                     <div class="navbar-header">
                         <Link to="/">
-                            <img src={Logo} alt="logo" style={{ width: "315px", padding: "10px" }} />
+                            <img src={Logo} alt="logo" style={{ width: "315px", padding: "12px" }} />
                         </Link>
                     </div>
-                    <div className="nav navbar-nav navbar-right d-flex" style={{ alignItems: "center", flexDirection: "row", gap: "65px" }}>
+                    <div className="nav navbar-nav navbar-right d-flex" style={{ alignItems: "center", flexDirection: "row", gap: "60px" }}>
                         <Link to="/signup"><button type='Primary' id='nav-btn'><FontAwesomeIcon icon={faUser} style={{ color: "rgba(255, 255, 255, 1)" }} />Sign Up</button></Link>
                         <Link to="/login"> <button id='nav-btn'><FontAwesomeIcon icon={faRightToBracket} style={{ color: "rgba(255, 255, 255, 1)" }} /> Login</button></Link>
                     </div>

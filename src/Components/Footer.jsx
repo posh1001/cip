@@ -5,9 +5,9 @@ const Footer = () => {
     return (
         <>
             <footer style={{ backgroundColor: "rgb(32, 40, 49)", overflow: "hidden", height: "100%" }}>
-                <div className="container">
+                <div className="container" id='footer'>
                     <h1 style={{ textAlign: "center" }}>What makes CIP unique?</h1>
-                    <div className="row d-flex">
+                    <div className="row d-flex" id='foot1'>
                         <div className="col-4">
                             <h3>Flexibility</h3>
                             <p>

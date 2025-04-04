@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../assets/Images/logo.png';
 import Shield from '../assets/Images/shield.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
@@ -13,17 +12,17 @@ const Home = () => {
             <header className='top-header'>
                 <div className="container">
                     <HomeNavbar />
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
                         <div className="header-details">
                             <h1 className='animated-text'>Your legacy deserves a secure tomorrow.</h1>
-                            <p>Your digital assets deserve the same protection as your physical assets.</p>
-                            <p>Automate inheritance, stay compliant, and secure your wealth with AI-powered smart contracts and blockchain technology</p>
+                            <p className='details-p'>Your digital assets deserve the same protection as your physical assets.</p>
+                            <p className='details-p'>Automate inheritance, stay compliant, and secure your wealth with AI-powered smart contracts and blockchain technology</p>
                             <Link to="/get-started" style={{ textDecoration: 'none', color: 'white' }}>
-                                <button class="btn btn-sm text-white" id='get-started' >
+                                <button class="btn btn-lg text-white" id='get-started' >
                                     Get Started
                                 </button>
                             </Link>
-                            <p style={{ fontFamily: "Lato, sans-serif", color: "white", width: "555px", fontSize: "18px", gridRow: "5px" }}>
+                            <p className='sponsored' style={{ fontFamily: "Lato, sans-serif", color: "white", width: "555px", fontSize: "18px", gridRow: "5px" }}>
                                 Sponsored by <img src={COTI} alt="img" style={{ width: "30px", position: "relative", left: "7px" }} />
                                 <span style={{ fontFamily: "Lato, sans-serif", fontSize: "20px", fontWeight: "500", position: "relative", left: "12px", top: "3px" }}>COTI</span>
                             </p>
@@ -35,7 +34,7 @@ const Home = () => {
 
             <section className='section3' style={{ backgroundColor: "rgb(28, 42, 51)", height: "100%" }}>
 
-                <div class="container">
+                <div class="container" id='second-h'>
                     <h1 className='second-header'>Your wealth, Your rules, Your future.</h1>
                     <div className="second-header2">
                         <h3>Don't let your legacy become another statistic.</h3>
@@ -53,7 +52,7 @@ const Home = () => {
                             <div className="col-lg-6 col-md-6 col-sm-12" id='image-container'>
                                 <img src={Shield} alt="image" style={{ width: "900px" }} className='slide-image' />
                             </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12" >
+                            <div className="col-lg-6 col-md-6 col-sm-12" id='head-2'>
                                 <h3>Built for the future, designed for peace of mind.</h3>
                                 <p>CIP is pioneering a secure, tamper-proof crypto inheritance
                                     protocol that ensures your assets are protected for generations
@@ -69,11 +68,11 @@ const Home = () => {
             <section className='section4'>
                 <div class="container">
                     <div className="row" id="section4-row">
-                        <div className="col-lg-6 col-md-6 col-sm-12">
+                        <div className="col-lg-6 col-md-6 col-sm-12" id='ready'>
                             <h3>Ready to Secure Your Tomorrow? Here is How It Works:</h3>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12">
-                            <ul>
+                            <ul id='ready2'>
                                 <li>
                                     <p>Register your assets on our secure platform.</p>
                                 </li>
