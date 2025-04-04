@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Home from '../Pages/Home';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import Logo from '../assets/images/logo.png';
+import Logo from '../assets/Images/logo.png';
 import { Link } from 'react-router-dom';
 
 const SelectionNavbar = () => {
