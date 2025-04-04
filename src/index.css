@@ -2647,6 +2647,7 @@ input[type="checkbox"]:checked::after {
 }
 
 .section4 {
+  background-color: "black";
   background-image: url('./assets/images/works.png');
   background-repeat: no-repeat;
   background-size: cover;
