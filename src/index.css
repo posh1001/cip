@@ -2514,7 +2514,7 @@ input[type="checkbox"]:checked::after {
 .header-details {
   width: 250px;
   position: relative;
-  top: 10rem;
+  top: 7rem;
   gap: 35px;
   display: flex;
   flex-direction: column;
