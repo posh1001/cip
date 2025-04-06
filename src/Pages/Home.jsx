@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import HomeNavbar from '../Components/HomeNavbar';
 import COTI from '../assets/Images/coti.png';
 import Footer from '../Components/Footer';
+import './index.css';
 
 const Home = () => {
     return (
