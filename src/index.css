@@ -3148,6 +3148,11 @@ html {
   }
 
   .welcome-title p {
+    col-lg-6,
+    col-md-6,
+    col-sm- {
+      display: block;
+    }
     text-align: start;
     width: 380px;
     font-size: 25px;
@@ -3158,6 +3163,8 @@ html {
   }
 
   .tool-tip {
+
+    
     text-align: start;
     width: 400px;
     font-size: 25px;
