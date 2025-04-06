@@ -69,6 +69,7 @@ footer p {
 
 .main-header {
   background-color: black;
+  background-image: url(./assets/Images/header.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
