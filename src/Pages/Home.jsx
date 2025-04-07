@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
             </header>
 
-            <section className='section3' style={{ backgroundColor: "rgb(28, 42, 51)", height: "100%" }}>
+            <section className='section3' style={{ backgroundColor: "rgb(28, 42, 51)", height: "100%", backgroundSize: "cover" }}>
 
                 <div class="container" id='second-h'>
                     <h1 className='second-header'>Your wealth, Your rules, Your future.</h1>

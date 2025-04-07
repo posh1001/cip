@@ -2514,8 +2514,8 @@ input[type="checkbox"]:checked::after {
 .header-details {
   width: 250px;
   position: relative;
-  top: 7rem;
-  gap: 35px;
+  top: 5rem;
+  gap: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -2525,7 +2525,7 @@ input[type="checkbox"]:checked::after {
   height: 123px;
   font-family: "Space Grotesk", sans-serif;
   font-weight: bolder;
-  font-size: 55px;
+  font-size: 75px;
   line-height: 90%;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 1);
@@ -2540,7 +2540,7 @@ input[type="checkbox"]:checked::after {
   line-height: 90%;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 1);
-  padding: 15px;
+  padding: 5px;
   position: relative;
 }
 
@@ -2576,8 +2576,8 @@ input[type="checkbox"]:checked::after {
 
 .header-details button {
   background-color: rgba(230, 121, 32, 1);
-  width: 280px;
-  height: 60px;
+  width: 220px;
+  height: 50px;
   color: rgba(255, 255, 255, 1);
   font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
@@ -3120,343 +3120,134 @@ html {
 
 /******************GET STARTED MEDIA QUERY***************************************/
 
-@media only screen and (max-width: 600px) {
-  .welcome-page {
-    background-color: black;
-    background-size: cover;
-    height: 100vh;
-    width: 380px;
-    height: 600px;
-    position: relative;
-    left: 14%
+@media only screen and (max-width: 768px) {
+  .top-header .container {
+      padding: 20px;
   }
 
-  .welcome-title {
-    text-align: start;
-    width: 180px;
-    font-size: 25px;
-    line-height: 8px;
+  .header-details h1 {
+      font-size: 1.5rem; /* Adjust header font size for smaller screens */
   }
 
-  .welcome-title h1 {
-    text-align: start;
-    width: 370px;
-    font-size: 35px;
-    line-height: 38px;
-    position: relative;
-    left: 60%;
-    bottom: 5rem;
+  .header-details p {
+      font-size: 1rem; /* Adjust paragraph font size for smaller screens */
   }
 
-  .welcome-title p {
-    col-lg-6,
-    col-md-6,
-    col-sm- {
-      display: block;
-    }
-    text-align: start;
-    width: 380px;
-    font-size: 25px;
-    line-height: 38px;
-    position: relative;
-    left: 60%;
-    bottom: 5rem;
+  .second-header {
+      font-size: 2rem;
   }
 
-  .tool-tip {
-
-    
-    text-align: start;
-    width: 400px;
-    font-size: 25px;
-    line-height: 8px;
-    height: 100%;
-    position: relative;
+  .second-header2 h3 {
+      font-size: 1.5rem;
   }
 
-  .video-tutorial img {
-    width: 140px;
+  .section3 .row {
+      flex-direction: column;
+      text-align: center;
   }
 
-  .text-video h3 {
-    font-size: 35px;
-    position: relative;
-    bottom: 30%;
+  .section3 #image-container img {
+      width: 100%; /* Ensure image doesn't overflow on smaller screens */
+      margin-bottom: 20px;
   }
 
-  .text-video p {
-    font-size: 18px;
-    position: relative;
-    bottom: 32%;
-    width: 320px;
+  .section3 #head-2 {
+      text-align: center;
   }
 
-  .video-box {
-    width: 60px;
-    justify-content: center;
-    position: relative;
-    right: 35%;
-    bottom: 5%;
+  .section4 .row {
+      flex-direction: column;
+      text-align: center;
   }
 
-  .video-box iframe {
-    width: 300px;
-    height: 200px;
-    justify-content: center;
-    position: relative;
-    right: 35%;
+  .section4 ul {
+      list-style: none;
+      padding-left: 0;
   }
 
-  .tooltip-btn {
-    position: relative;
-    bottom: 7%;
-    right: 5%;
+  .section4 #ready2 li {
+      font-size: 1rem; /* Adjust list font size */
   }
 
-  .tooltip-btn button {
-    width: 300px;
-    height: 55px;
+  .section4 #section4-btn {
+      margin-top: 15px;
+  }
+}
+
+/* Media Query for mobile screens (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+
+  .top-header{
+     width: 100%;
+     overflow-x: hidden;
+     box-sizing: border-box;
+     background-size: contain;
+     height: 100%;
+     overflow-y: hidden;
+     gap: 1rem;
   }
 
-  .home-container {
-    width: 500px;
-    margin: 0;
-    padding: 0;
+  .header-details h1 {
+      font-size: 2rem;
+      text-align: center;
+      position: relative;
+      bottom: 1.5rem;
+      width: 350px;
+  }
+
+  .header-details p {
+      font-size: 20px;
+      width: 50px;
+      position: relative;
+      bottom: 4rem;
+      width: 400px;
+      text-align: start;    
+  }
+
+  .second-header {
+      font-size: 1.8rem;
+      overflow-x: hidden;
+      padding: 10px;
+  }
+
+  .second-header2 h3 {
+    font-size: 1.rem;
     overflow-x: hidden;
-  }
-
-  .signup-progress {
-    width: 400px;
-    font-size: 25px;
-    line-height: 8px;
-    position: relative;
-    left: 12%;
-  }
-
-  .form-text h3 {
-    font-size: 35px;
-    position: relative;
-    left: 25%;
-  }
-
-  .form-text p {
-    font-size: 20px;
-    position: relative;
-    left: 25%;
-  }
-
-  .progress_container {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0.5rem 0;
-    position: relative;
-    color: white;
-    left: 25%;
-  }
-
-  .progress_container::before {
-    content: "";
-    position: absolute;
-    background-color: #ddd;
-    height: 1px;
-    width: 60%;
-    top: 50%;
-    left: 0;
-    z-index: 1;
-    transform: translateY(-120%);
-    transform: translateX(35%);
-  }
-
-  .eye {
-    width: 250px;
-    font-size: 15px;
-  }
-
-  .py-1 {
-    position: relative;
-    top: 15px;
-    font-size: 14px;
-  }
-
-  .circle1 {
-    background-color: rgba(230, 121, 32, 1);
-    border: 1px dotted black;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    border-radius: 60%;
-    z-index: 1;
-    position: relative;
-    font-size: 16px;
     padding: 10px;
+}
+
+.second-header2 p {
+  font-size: 20px;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+  .section3 .container {
+      padding-left: 10px;
+      padding-right: 10px;
+      overflow-x: hidden;
+      overflow-y: hidden;
   }
 
-  .circle2 {
-    background-color: rgba(190, 190, 190, 1);
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    border-radius: 60%;
-    z-index: 1;
-    font-size: 16px;
-    padding: 10px;
+  .section3 #image-container img {
+      width: 100%;
+      position: relative;
+      right: 20rem;
   }
 
-  .circle3 {
-    background-color: rgba(230, 121, 32, 1);
-    border: 1px dotted black;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    border-radius: 60%;
-    z-index: 1;
-    position: relative;
-    font-size: 16px;
-    padding: 10px;
+  .section3 #head-2 {
+      padding: 0 10px;
   }
 
-  .circle4 {
-    background-color: rgba(190, 190, 190, 1);
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    border-radius: 60%;
-    z-index: 1;
-    font-size: 16px;
-    padding: 10px;
+  .section4 #ready2 li {
+      font-size: 20px;
   }
 
-  .signup-bg {
-    width: 600px;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  .section4 #section4-btn {
+      width: 200px; 
   }
 
-  #connect-wallet2 {
-    width: 9px;
-  }
-
-  #connect-wallet1 {
-    width: 9.2px;
-  }
-
-  #connect-wallet3 {
-    width: 9.8px;
-  }
-
-  #asset1 span {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .mb-3 {
-    width: 190px;
-  }
-
-  .mb-3 h3 {
-    font-size: 30px;
-    width: 250px;
-  }
-
-  .mb-3 p {
-    font-size: 15px;
-    width: 180px;
-    line-height: 20px;
-  }
-
-  #right-arrow {
-    position: relative;
-    transform: translateX(-550%);
-    font-size: 15px;
-  }
-
-  #drop-down {
-    width: 11rem;
-    position: relative;
-    right: 45px;
-
-  }
-
-  #drop-down,
-  .col-lg-4 {
-    position: relative;
-    cursor: pointer;
-    width: 80%;
-  }
-
-  #select-option {
-    width: 150px;
-  }
-
-  input[type="checkbox"]:checked {
-    background: transparent;
-    /* Green color when checked */
-    border-color: rgba(230, 121, 32, 1);
-  }
-
-
-  input[type="checkbox"]:checked::after {
-    content: '';
-    position: absolute;
-    top: 20px;
-    width: 12px;
-    height: 14px;
-    background-color: rgba(230, 121, 32, 1);
-    /* Inner circle */
-    border: 1px dotted rgb(10, 10, 10);
-    z-index: 1;
-  }
-
-  .my-wallet {
-    width: 500px;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-
-  usl {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgba(126, 126, 126, 1);
-    border-radius: 7px;
-  }
-
-  .usl p {
-    color: rgb(253, 252, 252);
-    font-family: Space Grotesk;
-    font-weight: 700;
-    font-size: 18px;
-    position: relative;
-    top: 25px;
-    left: 12px;
-  }
-
-  .usl img {
-    position: relative;
-    top: 13px;
-    left: 71px;
-  }
-
-
-  .usl1 {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgba(126, 126, 126, 1);
-    border-radius: 7px;
-  }
-
-  .usl1 p {
-    color: rgb(253, 252, 252);
-    font-family: Space Grotesk;
-    font-weight: 700;
-    font-size: 18px;
-    position: relative;
-    top: 72px;
-
-  }
-
+  #section4-row h3{
+    width: 350px; 
+}
 }
