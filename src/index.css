@@ -3204,6 +3204,12 @@ html {
       text-align: start;    
   }
 
+  .header-details button {
+    font-size: 20px;
+    position: relative;
+    bottom: 15rem; 
+}
+
   .second-header {
       font-size: 1.8rem;
       overflow-x: hidden;
@@ -3250,4 +3256,90 @@ html {
   #section4-row h3{
     width: 350px; 
 }
+
+#footer {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#footer h1{
+  font-size: 25px;
+}
+
+#foot1 h3{
+  font-size: 20px;
+}
+
+#foot1 p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.lower-footer p{
+  font-size: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+.welcome-page {
+  width: 350px;
+  position: relative;
+  left: 3rem;
+}
+
+.welcome-title h1 {
+  font-size: 28px;
+  width: 300px;
+}
+
+.welcome-title p {
+  font-size: 22px;
+  width: 320px;
+}
+
+.tool-tip {
+  width: 350px;
+  position: relative;
+  top: 2rem;
+  float: left;
+  overflow-x: hidden;
+}
+
+.video-box {
+width: 400px;
+position: relative;
+right: 5rem;
+}
+
+.video-box iframe{
+  width: 320px;
+  position: relative;
+  right: 4.5rem;
+  }
+
+  .tooltip-btn {
+    position: relative;
+    right: 7.5rem;
+    width: 50px;
+  }
+
+  .tooltip-btn button{
+    position: relative;
+    width: 300px;
+  }
+
+  .text-video {
+    width: 200px;
+    position: relative;
+    right: 9rem;
+  }
+
+  .text-video h3{
+    font-size: 28px;
+  }
+
+  .text-video p{
+    font-size: 16px;
+    width: 250px;
+  }
 }
