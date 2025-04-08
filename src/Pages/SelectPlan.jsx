@@ -46,7 +46,7 @@ const SelecePlan = () => {
 
     return (
         <div className="" style={{ backgroundColor: "black", height: "100vh", overflow: "hidden" }}>
-            <div className="container-fluid" style={{ cursor: "pointer", height: "100vh" }}>
+            <div className="container-fluid" style={{ cursor: "pointer", height: "100vh", overflow: "auto"}}>
                 <SelectionNavbar />
                 <div className="row px-4">
                     <div className="payment-header">
@@ -165,8 +165,8 @@ const SelecePlan = () => {
                                         <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
                                         Multi-Signature Wallet Integration
                                     </li>
-                                    <li className='d-flex gap-2'>
-                                        <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
+                                    <li className='d-flex gap-2 py-1'>
+                                    <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
                                         Encrypted Document Storage (IPFS)
                                     </li>
                                     <li className='d-flex gap-2 py-1 text-secondary'>
@@ -230,8 +230,8 @@ const SelecePlan = () => {
                                         <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
                                         Multi-Signature Wallet Integration
                                     </li>
-                                    <li className='d-flex gap-2'>
-                                        <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
+                                    <li className='d-flex gap-2 py-1'>
+                                    <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
                                         Encrypted Document Storage (IPFS)
                                     </li>
                                     <li className='d-flex gap-2 py-1'>
@@ -295,8 +295,8 @@ const SelecePlan = () => {
                                         <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
                                         Multi-Signature Wallet Integration
                                     </li>
-                                    <li className='d-flex gap-2'>
-                                        <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
+                                    <li className='d-flex gap-2 py-1'>
+                                    <FontAwesomeIcon icon={faCircleCheck} className='benefit-list1' />
                                         Encrypted Document Storage (IPFS)
                                     </li>
                                     <li className='d-flex gap-2 py-1'>

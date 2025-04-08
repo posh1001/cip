@@ -139,13 +139,13 @@ const Login = () => {
 
                                 <span className='mb-2 text-white' style={{ fontFamily: "Space Grotesk, sans-serif" }}>Or</span>
 
-                                <button onClick={handleGoogleSignIn} type="submit" className="btn1 col-8">
+                                <button id='signup-btn2' onClick={handleGoogleSignIn} type="submit" className="btn1 col-8">
                                     <span ><img src={google2} alt=""
                                         style={{
                                             width: "27px", height: "27px",
                                             marginRight: "6px"
                                         }} /></span>
-                                    <span style={{ fontSize: "20px" }}>
+                                    <span style={{ fontSize: "18px" }}>
                                         Sign in with Google
                                     </span>
                                 </button>

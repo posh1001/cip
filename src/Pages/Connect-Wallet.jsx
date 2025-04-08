@@ -99,7 +99,7 @@ const ConnectWallet = () => {
                                     </label>
                                 </div>
                                 <div className="usl2 col-8 mb-3" id='asset1'>
-                                    <img src={TRUST} alt="img" style={{ width: "30px", height: "30px" }} />
+                                    <img id='asset' src={TRUST} alt="img" style={{ width: "30px", height: "30px" }} />
                                     <label>
                                         <input
                                             id='connect-wallet2'

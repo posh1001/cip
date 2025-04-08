@@ -164,19 +164,20 @@ const SignUp = () => {
                                 </div>
 
                                 <button type="submit"
-                                    class="btn btn mb-3 col-8">
+                                
+                                    class="btn btn mb-3 col-8" id='signup-btn1'>
                                     <span style={{ fontSize: "20px" }}>Next</span>
                                 </button>
 
                                 <span className='mb-2 text-white' style={{ fontFamily: "Space Grotesk, sans-serif" }}>Or</span>
 
-                                <button onClick={handleGoogleSignUp} type="submit" className="btn1 col-8">
+                                <button onClick={handleGoogleSignUp} type="submit" className="btn1 col-8" >
                                     <span ><img src={google2} alt=""
                                         style={{
                                             width: "27px", height: "27px",
-                                            marginRight: "6px"
+                                            // marginRight: "6px"
                                         }} /></span>
-                                    <span style={{ fontSize: "20px" }}>
+                                    <span style={{ fontSize: "20px" }} id='signup-btn2'>
                                         Sign in with Google
                                     </span>
                                 </button>

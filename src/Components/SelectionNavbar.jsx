@@ -15,7 +15,7 @@ const SelectionNavbar = () => {
                         <div class="container-fluid">
                             <div className="profile-info">
                                 <Link to="/">
-                                    <img src={Logo} alt="logo" />
+                                    <img src={Logo} alt="logo"style={{width:"150px"}}/>
                                 </Link>
                             </div>
                             <div className="profile">
