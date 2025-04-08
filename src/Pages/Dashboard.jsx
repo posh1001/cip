@@ -10,8 +10,8 @@ import { Link } from 'react-router-dom';
 const Dashboard = () => {
     return (
         <div className="" style={{ backgroundColor: "black", height: "100vh", overflow: "hidden" }}>
-            <div className="container-fluid">
-                <div className="row">
+            <div className="container-fluid"style={{overflow: "auto"}}>
+                <div className="row" style={{overflow: "auto", overflowX: "hidden"}}>
                     <div className="col-lg-4">
                         <div className="dashboard-menu">
                             <div className="brand-logo">
@@ -35,7 +35,7 @@ const Dashboard = () => {
                         <div className="dashboard-header">
                             <p className='dashboard-title'>Dashboard</p>
                             <div className="Profile">
-                                <FontAwesomeIcon icon={faBell} className='profile-list' />
+                                <FontAwesomeIcon icon={faBell} className='profile-list1'style={{color: "white"}}/>
                                 <p className="profile-name"><span className='greeting p-2'>Hello,</span>Poche</p>
                                 <span className="profile-picture"></span>
                                 <FontAwesomeIcon icon={faChevronDown} className='profile-list' />

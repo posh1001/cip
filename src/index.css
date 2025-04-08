@@ -3593,4 +3593,101 @@ input[type="checkbox"]:checked::after {
   border-radius: 50%;
  }
 
+ .dashboard-header p{ 
+  font-size: 18px;
+ position: relative;
+ left: 4rem
+ }
+
+
+ .dashboard-header { 
+  width: 400px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: row;
+ 
+ }
+
+ .profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px
+ }
+
+ .profile-name span{ 
+  font-size: 14px
+ }
+
+ .profile-name{ 
+  font-size: 14px
+ }
+
+ .profile-picture{
+  position: relative;
+  top: 4px;
+  left: 3rem;
+  border-radius: 60%;
+  width: 20px;
+  height: 20px;
+  gap: 10px;
+ }
+
+ .profile-list{
+  position: relative;
+  left: 1rem
+ }
+
+ .profile-list1{ 
+  position: relative;
+  left: 4rem
+ }
+
+ .upgrade-plan
+{
+ float: none;
+}
+
+.component{
+  width: 80px;
+  position: relative;
+  right: 4rem
+}
+
+.component img{
+  width:120px;
+  height: 120px;
+  position: relative;
+  right: 5rem
+}
+
+.component p{ 
+  font-size: 16px;
+  width: 220px;
+  height: 120px;
+  position: relative;
+  right: 5rem
+}
+
+.component button{ 
+  width:180px;
+  height: 35px;
+  position: relative;
+  right: 5rem;
+  padding: 2px;
+  bottom: 5rem;
+}
+
+.upgrade-plan {
+  width: 188px;
+  height: 40px;
+  position: relative;
+  top: 170px;
+  right:2000px;
+  border-radius: 8px;
+  border-width: 1px;
+  gap: 4px;
+
+}
 }
